@@ -59,8 +59,6 @@
 
     <p>??ng nh?p th?t b?i. Vui lòng th? l?i.</p>
 </div>
-
-@include('news.javascript')
-
+<?php include('news/javascript.php'); ?>
 </body>
 </html>
