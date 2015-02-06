@@ -7,6 +7,7 @@
  */
 ?>
 <?php include_once("config/main.php"); ?>
+<?php include_once("config/connect.php"); ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns:fb="http://ogp.me/ns/fb#" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
 <head>
@@ -29,11 +30,9 @@
                 <div class="wrap-content">
                     <div class="content">
                         <!--Begin Main Code-------------------->
-                        <div class="mainblock_left">
-                            <?php include('news/sidebarLeft.php'); ?>
-                        </div><!--Left-->
+
                         <div class="mainblock_center">
-                            @yield('news.content')
+                            <?php include('news/content.php'); ?>
                         </div><!--Center-->
                         <div class="mainblock_right">
                             <?php include('news/sidebarRight.php'); ?>

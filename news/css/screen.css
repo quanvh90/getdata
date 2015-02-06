@@ -12,7 +12,7 @@ body {font-size:14px; line-height:18px; color:#000000; background:#fff;font-fami
 .logo{position:absolute; left: 53px; top: 150px; width: 265px; height: 115px;z-index: 9;}
 .topnav{display:block; overflow: hidden; height:76px;text-align: center;margin: 0px;padding: 0px;}
 .topnav li{display:inline-block; }
-.topnav li a{font-family:'UTM Cafeta'; font-size: 19px; color:#fff; text-transform:uppercase; line-height: 60px;padding: 0px 30px;text-decoration: none;}
+.topnav li a{font-family:'UTM Cafeta'; font-size: 17px; color:#fff; text-transform:uppercase; line-height: 60px;padding: 0px 30px;text-decoration: none;}
 .topnav li:hover a, .topnav li a.active{color:#FC0;}
 
 /*Main*/
@@ -21,7 +21,7 @@ body {font-size:14px; line-height:18px; color:#000000; background:#fff;font-fami
 		.main { background:url(../images/bg_ctn_top.jpg) 50% 0 no-repeat; overflow: hidden;}
 			.wrap-content{width:1000px; margin:0 auto; position:relative;}
 			.mainblock_left{width:260px;float: left;}
-			.mainblock_center{width:460px; margin:0px 10px;float: left;padding-bottom:10px;}
+			.mainblock_center{width:720px; margin:0px 10px;float: left;padding-bottom:10px;}
 			.mainblock_center_full{width:730px; margin-left:0px;}
 			.mainblock_right{width:260px;float: left;margin-bottom: 20px;}
 			.mainblock_right .insert{overflow:hidden;}
