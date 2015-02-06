@@ -28,7 +28,7 @@ if(isset($_POST['getdata'])){
 					foreach($content->find('img') as $element){
 						$i++;
 						$outPath = $folder.$alias.$i.'.jpg';
-						if($i==2) $newsrc = $outPath;
+						if($i==3) $newsrc = $outPath;
 					   	copy($element->src,$outPath);
 						$element->src = preg_replace('/\//', '\/', $element->src);
 						$fulltext = preg_replace("/($element->src)/i", $outPath, $fulltext);
@@ -80,7 +80,7 @@ if(isset($_POST['getdata'])){
 					foreach($content->find('img') as $element){
 						$i++;
 						$outPath = $folder.$alias.$i.'.jpg';
-						if($i==1) $newsrc = $outPath;
+						if($i==6) $newsrc = $outPath;
 					   	copy($element->src,$outPath);
 						$element->src = preg_replace('/\//', '\/', $element->src);
 						$fulltext = preg_replace("/($element->src)/i", $outPath, $fulltext);

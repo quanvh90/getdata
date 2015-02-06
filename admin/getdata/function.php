@@ -63,7 +63,7 @@ function preg_replace_src($url, $newurl, $text){
 		//Download images from remote server
 		$time = getdate();
 		$folder = $time['mday'].$time['mon'].$time['year'];
-		$path = 'images/baiviet/';
+		$path = '../images/baiviet/';
 		if(!is_dir($path.$folder))
 			mkdir($path."$folder", 0777);
 		$outPath = $path.$folder.'/baokinhdoanh'.$time[0].'.jpg';
@@ -97,8 +97,8 @@ function preg_replace_src($url, $newurl, $text){
 	}
 	function create_folder($alias){
 		$time = getdate();
-		if(!is_dir('images/baiviet/')) mkdir('images/baiviet/', 0777);
-					$path = 'images/baiviet/'.$alias;
+		if(!is_dir('../images/baiviet/')) mkdir('../images/baiviet/', 0777);
+					$path = '../images/baiviet/'.$alias;
 					if(!is_dir($path.$time['year'].'/'.$time['mon'].'/'.$time['mday'].'/')){
 							if(!is_dir($path.$time['year'].'/'.$time['mon'].'/')){
 								if(!is_dir($path.$time['year']))
