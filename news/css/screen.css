@@ -23,7 +23,7 @@ body {font-size:14px; line-height:18px; color:#000000; background:#fff;font-fami
 			.mainblock_left{width:260px;float: left;}
 			.mainblock_center{width:720px; margin:0px 10px;float: left;padding-bottom:10px;}
 			.mainblock_center_full{width:730px; margin-left:0px;}
-			.mainblock_right{width:260px;float: left;margin-bottom: 20px;}
+            .mainblock_right{width:260px;float: right;margin-bottom: 20px;position: absolute;right: 0px;top: 10px;}
 			.mainblock_right .insert{overflow:hidden;}
 
 /* SidebarLeft*/

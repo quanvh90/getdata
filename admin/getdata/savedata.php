@@ -61,7 +61,7 @@ if(isset($_POST['save']) || isset($_POST['btnadd'])){
         else $result = Content::insertContent($input);
 
         if($result){ echo "<script type='text/javascript'>
-                            window.location.href= 'http://getdata.local.com/index.php';
+                            window.location.href= 'http://getdata.local.com/admin/';
                         </script>";
         }
         else echo "that bai";

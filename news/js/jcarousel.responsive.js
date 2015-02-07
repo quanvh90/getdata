@@ -18,7 +18,7 @@
                 wrap: 'circular'
             })
             .jcarouselAutoscroll({
-                autostart: false
+                autostart: true
             });
 
         $('.jcarousel-control-prev')

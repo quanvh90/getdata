@@ -24,7 +24,9 @@ class Content{
         if(isset($input['title'])) $title = $input['title'];
         else $title = '';
 
-        if(isset($input['alias'])) $alias = $input['alias'];
+        $pre_alias = Category::getAlias($category_id);
+
+        if(isset($input['alias'])) $alias = $pre_alias.'/'.$input['alias'];
         else $alias = '';
 
         if(isset($input['introtext'])) $introtext = $input['introtext'];
@@ -72,8 +74,9 @@ class Content{
             $sql .= ", title='$title'";
         }
 
+        $pre_alias = Category::getAlias($category_id);
         if(isset($input['alias'])) {
-            $alias = $input['alias'];
+            $alias = $pre_alias.'/'.$input['alias'];
             $sql .= ", alias='$alias'";
         }
 

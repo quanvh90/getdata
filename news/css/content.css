@@ -1,2 +1,18 @@
 .noibattrangchu{margin-left: 15px;}
 .noibattrangchu a{text-decoration: none; font-size: 13px;}
+
+.width_common{width:100%;float:left;margin-top: 20px;}
+.col_width_310{width:720px;float:left}
+.box_category{margin-bottom:15px}
+.box_category li{display: block;}
+.title_box_category{margin-bottom:10px;overflow:hidden}
+.txt_main_category{background:#eee; float:left;margin: 0px;display:inline;font:700 14px/30px arial;color:#9f224e;width: 100%;margin-bottom: 3px;}
+.txt_main_category a{color:#9f224e;font:700 14px/30px arial;height:28px;display:block;float:left; text-decoration: none;}
+.title_news{float: left;}
+.title_news img{float: left; width: 180px !important;}
+.title_news a{margin-left: 15px; margin-top: 10px !important; text-decoration: none; color: rgb(0, 3, 255);}
+.title_news p{margin-left: 195px; margin-right: 5px; margin-top: 2px;text-decoration: none;}
+.title_news_list{float: left;}
+.title_news_list ul{margin-left: -50px;}
+.title_news_list li{display: block; padding-left: 10px;}
+.title_news_list a{text-decoration: none; color: #0066cc;}

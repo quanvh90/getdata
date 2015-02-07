@@ -31,6 +31,7 @@
     include_once("getdata/function.php");
     include_once("getdata/get.php");
     include_once("getdata/content.php");
+    include_once("getdata/category.php");
     include_once("getdata/savedata.php");
     include_once("libralies/redirect.php");
 ?>
